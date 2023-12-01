@@ -56,9 +56,19 @@ Contract deployed: 0x02040f38c768e5b7cd12e8775d4dbc7387a2f6d2be172adc9c02d509c56
 Enter keystore password:
 
 
+# bug
+
+Report error when `starkli declare XXX`, maybe you set the `Argent Shield`.
+
+Check your wallet: ~/.starkli-wallets/deployer/my_account_1.json
+
+```
+"guardian": "0x0"
+```
+
+
 # ref
 
 https://book.starknet.io/ch02-01-basic-installation.html
 
 https://github.com/starknet-edu/starknetbook/blob/main/examples/Ownable-Starknet/src/lib.cairo
-
